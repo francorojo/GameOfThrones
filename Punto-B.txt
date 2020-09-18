@@ -1,0 +1,3 @@
+Para el punto 3, creemos conveniente hacer un dato calculado de la poblacion total, que aunque sea costoso de mantener
+y necesite una actualizacion frente a un cambio en alguna ciudad, genera un beneficio de performance en la region al evitar
+realizar el calculo de cada ciudad, si las mismas son muchas y para evitar 2 consultas a las bases de datos.
